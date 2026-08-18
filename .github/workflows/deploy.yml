@@ -23,14 +23,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 先安裝 pnpm 工具
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      # 然後再設定 Node.js 並啟用 pnpm 快取（這樣才不會找不到 pnpm）
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22 # 升級到當前穩定的 Node 版本，解決黃色驚嘆號警告
           cache: 'pnpm'
-
-      - name: Install pnpm
-        run: npm install -g pnpm
 
       - name: Install dependencies
         run: pnpm install
