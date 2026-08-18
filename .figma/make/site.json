@@ -1,0 +1,10 @@
+{
+  "description": "Monitors and logs temperature-sensitive shipments in real-time to ensure product safety and compliance for businesses managing cold chain logistics.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

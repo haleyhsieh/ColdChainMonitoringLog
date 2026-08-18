@@ -1,0 +1,9 @@
+[
+  {
+    "id": "hardcoded-astra-ui",
+    "name": "Astra Demo Kit",
+    "npmScope": "@figma",
+    "npmPackageName": "astraui-kit",
+    "npmPackageVersion": "0.1.3"
+  }
+]

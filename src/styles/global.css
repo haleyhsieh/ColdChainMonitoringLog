@@ -1,0 +1,62 @@
+/* Team Design System Global Variables & Typography */
+
+:root {
+  /* Brand & Primary Color Tokens */
+  --primary-teal: #07998a;
+  --primary-teal-dark: #057a6f;
+  --primary-teal-light: #e6f5f3;
+  --brand-primary: var(--primary-teal);
+  --brand-hover: var(--primary-teal-dark);
+  --brand-tertiary: #f4f6f8;
+
+  /* Surfaces & Backgrounds */
+  --bg-app: #f4f6f8;
+  --bg-surface: #ffffff;
+  --bg-teal-light: #e6f5f3;
+
+  /* Text & Content Colors */
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+
+  /* Borders & Separators */
+  --border-subtle: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  /* Spacing Scale Tokens */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Design System Typography Font Faces */
+  --font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-heading: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-family-mono);
+}
