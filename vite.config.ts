@@ -362,11 +362,12 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev
 export default defineConfig({
   plugins: [react()],
-  base: './', // 👈 關鍵！改成相對路徑，徹底解決 GitHub Pages 找不到打包檔案的問題
+  base: './', // 保持相對路徑，確保 GitHub Pages 讀得到檔案
   build: {
     chunkSizeWarningLimit: 2000,
-    minify: true,
-    sourcemap: false
+    minify: false, // 👈 關鍵修改：改成 false 徹底關閉壓縮，保留最原始完整的 CSS、RWD 與 JS 互動樣式
+    sourcemap: false,
+    cssCodeSplit: false // 👈 關鍵修改：強制把所有 CSS 打包在單一檔案，防止切換語言或 Menu 樣式漏掉
   }
 })
 
