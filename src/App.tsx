@@ -972,28 +972,7 @@ export default function App() {
 
             {/* 2. Refined Shipment Information & Checkpoint Overview Card */}
             <section className="bg-white rounded-xl border border-slate-200 p-4 md:p-5 shadow-xs transition-all space-y-4">
-              {/* <div className="flex flex-col  sm:flex-row sm:flex-wrap justify-between gap-3 border-b border-slate-100 pb-3">
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 text-xs text-[var(--primary-teal-dark)] font-semibold uppercase tracking-wider">
-                    <Box className="w-4 h-4 text-[var(--primary-teal)]" />
-                    <span>{t.shipmentOverview.title}</span>
-                  </div>
-                  {/* Clean Product Name without appended flight route */}
-                  <h2 className="font-bold text-slate-900 text-base md:text-lg mt-1 leading-snug break-words">
-                    {t.shipmentOverview.productName}
-                  </h2>
-                </div> */}
-
-                {/* Status Badge & Checkpoint Progress Indicator */}
-                {/* <div className="flex flex-col items-end sm:flex-row sm:items-center gap-1 sm:w-full">
-                  <div className="flex items-center gap-2">
-                    <Badge label={t.shipmentOverview.statusVal} variant="success" className="text-xs font-semibold" />
-                  </div>
-                  <span className="text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-200">
-                    {t.shipmentOverview.statusFullLabel}
-                  </span>
-                </div>
-              </div> */}
+           
 
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-3">
   <div className="flex-1 min-w-0">
