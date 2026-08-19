@@ -972,7 +972,7 @@ export default function App() {
 
             {/* 2. Refined Shipment Information & Checkpoint Overview Card */}
             <section className="bg-white rounded-xl border border-slate-200 p-4 md:p-5 shadow-xs transition-all space-y-4">
-              <div className="flex flex-col items-start sm:flex-row sm:flex-wrap justify-between gap-3 border-b border-slate-100 pb-3">
+              <div className="flex flex-col  sm:flex-row sm:flex-wrap justify-between gap-3 border-b border-slate-100 pb-3">
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 text-xs text-[var(--primary-teal-dark)] font-semibold uppercase tracking-wider">
                     <Box className="w-4 h-4 text-[var(--primary-teal)]" />
