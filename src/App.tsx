@@ -985,7 +985,7 @@ export default function App() {
                 </div>
 
                 {/* Status Badge & Checkpoint Progress Indicator */}
-                <div className="flex flex-col items-end sm:flex-row sm:items-center gap-1">
+                <div className="flex flex-col items-end sm:flex-row sm:items-center gap-1 sm:w-full">
                   <div className="flex items-center gap-2">
                     <Badge label={t.shipmentOverview.statusVal} variant="success" className="text-xs font-semibold" />
                   </div>
